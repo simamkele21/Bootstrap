@@ -1,51 +1,56 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid System part 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-   <style>
+    <style>
         section {
             padding: 60px 0;
         }
     </style>
 </head>
+
 <body>
 
     <!-- navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><i class="bi bi-disc-fill"></i>Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#intro">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#service">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <a class="navbar-brand" href="#"><i class="bi bi-disc-fill"></i>Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- main image & intro text -->
     <section id="intro">
@@ -53,15 +58,25 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
                     <h1>
-                        <div class="display-2">Custom Hoodie</div>
-                        <div class="display-5 text-muted">My Custom Painted Denim Jacket </div>
+                        <div class="display-1">Custom Hoodie</div>
+                        <div class="display-3 text-muted">My Custom Painted Denim Jacket </div>
                     </h1>
-                    <a href="#customer review">Customer review</a>
+                    <div class="display-7 text-muted">Customer reviews</div>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
                     <br>
-                   <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <p>Love love love the jacket. it was packaged well .... and don't think i'm weird, but it didn't
+                        smell funny.
+                        Sometimes when you order things they smell odd ....
+                        I will definitely order more and recommend you.</p>
+                    <br>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
                 </div>
 
-                <div class="col-md-5 text-center d-none d-md-block">
+                <div class="col-md-3 text-center d-none d-md-block">
                     <img class="img-fluid" src="assets/custom hoodie/1.jpeg" alt="">
                 </div>
             </div>
@@ -109,25 +124,28 @@
     </section>
 
     <!-- main image & intro text -->
-<section id="about">
-    <div class="container-lg">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-5 text-center text-md-start">
-                <h1>
-                    <div class="display-2">Custom Takkies</div>
-                    <div class="display-5 text-muted">Custom air force 1</div>
-                </h1>
-                <a href="#customer review">Customer review</a>
-                <br>
-                <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
-            </div>
-            <div class="col-md-5 text-center d-none d-md-block">
-                <img class="img-fluid" src="assets/custom shoes/06.jpg" alt="">
+    <section id="about">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Custom Takkies</div>
+                        <div class="display-5 text-muted">Custom air force 1</div>
+                    </h1>
+                    <a href="#customer review">Customer review</a>
+                    <br>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="img-fluid" src="assets/custom shoes/06.jpg" alt="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
